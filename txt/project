@@ -1,0 +1,4 @@
+1->克隆项目到本地
+2->切换分支 git check fenzhiName
+3->npm i npm i --registry=http://registry.fe.yeshj.com
+(2,3 顺序········-_- !~)

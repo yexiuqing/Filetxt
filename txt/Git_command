@@ -1,0 +1,62 @@
+1--gtit status	查看变化
+
+2--git	diff	显示不同的地方
+
+3--git add fileName (. --使用.是包括全部文件)  
+
+4--git commit -m "信息"	存放在本地
+
+5--git pull  	拉最新的代码
+
+6--git push 	传远程
+
+	报错：（1）git rebase + "分支名" （不写默认是master）  //冲突伊注释行出现
+		 （2）git status
+		 （3）以上（1），（2）就可以查看冲突
+
+	继续
+	git add .
+	git rebase --continue
+
+第一次在分支上提交代码
+	git push --set -upstream origin 分支名
+
+8/ git checkout --fileName 		--撤销修改
+
+9/ git checkout fileName 		--创建分支
+
+10/ rm fileName --删除
+
+
+
+
+
+
+
+
+
+
+
+进入文件目录->文件夹
+	1/ pwd		--显示当前目录
+
+	2/ git init		--变成个git可管理仓库
+
+	3/  git status 		--查看文件状态，是否有未提交的
+		git add fileName	
+		git commoit 
+		git diff fileName 	--查看更改了什么
+
+	4/ git log 		--查看历史记录
+
+	5/ git reset --hard HEAD~(1,2,3,~~~100) 	--回滚到前~~版本（慎用）
+
+	6/ cat fileName 	--查看文件内容
+
+	7/ git reflog 	--获取到新版本
+
+	8/ git checkout --fileName 		--撤销修改
+
+	9/ git checkout fileName 		--创建分支
+
+	10/ rm fileName --删除
